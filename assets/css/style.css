@@ -1,0 +1,42 @@
+.jumbotron {
+  background-color: #ff0000;
+  color: white;
+}
+
+body {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 6px;
+  margin: 20px;
+  width: 18rem;
+  background-color: #e3e3e3;
+}
+
+.card-header {
+  background-color: #2993f7;
+  color: white;
+}
+
+.text {
+  padding: 20px;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  margin: 20px;
+}
+
+.col {
+  flex: 1;
+  text-align: center;
+}

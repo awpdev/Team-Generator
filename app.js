@@ -130,6 +130,7 @@ const employeeQuery = () => {
         employeeQuery();
       } else {
         console.log(teamMembers);
+        generateHtml();
       }
   });
 }
@@ -140,6 +141,19 @@ const startQuestions = () => {
   managerQuery();
   console.log(teamMembers);
   console.log(teamMembers.length);
+}
+
+const generateHtml = () => {
+  const outputPath = path.join(OUTPUT_DIR, 'team.html');
+
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR);
+  }
+
+  fs.writeFileSync(outputPath, render(teamMembers), (err) => {
+    if (err) console.log(err);
+    console.log('A team page has been created!');
+  });
 }
 
 startQuestions();

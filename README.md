@@ -24,7 +24,7 @@ The repository is located [here](https://github.com/awpdev/Team-Generator).
 Please view my video demonstration of the program [here](https://drive.google.com/file/d/1XMJGxsTCcI1nkzQKqWJ46ZuNO-J7r-_R/view).
 
 ![node](/./assets/node.png)
-![teamhtml](//./assets/teamhtml.png)
+![teamhtml](/./assets/teamhtml.png)
 
 
 
